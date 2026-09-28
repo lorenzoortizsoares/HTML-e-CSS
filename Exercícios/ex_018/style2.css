@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+@font-face{
+    font-family: 'Dune';
+    src: url(fonts/Dune_Rise.otf) format('opentype'), url(fonts/Dune_Rise.ttf) format('truetype');
+}
+
+body{
+    font-family:'Dune', serif;
+    font-weight: 900;
+}

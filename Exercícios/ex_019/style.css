@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #aca6e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1{
+    color: #292077
+}
+
+h2{
+    color: #3e2dd6
+}
+
+#prin{
+    color: #050032;
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.subtitulo{
+    color: azure
+}
+
+.caixa1 > p{
+    display: none;
+}
+
+.caixa1:hover > h1{
+    background-color: #d5f55fa2;
+}
+
+.caixa1:hover > p{
+    display: block;
+}
+
+.susto{
+    font-size: 10em;
+}
+
+.caixa2 > p{
+    display: none;
+}
+
+.caixa2:hover > .titulo{
+    color: #1900ff;
+}
+
+.caixa2:hover > .susto{
+    display: block;
+}
+.caixa2{
+    display: inline-block;
+}

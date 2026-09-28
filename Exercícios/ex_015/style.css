@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+ body{
+            background-color: lightskyblue;
+              text-align: center;
+        }
+   h1{
+    text-align: left;
+   } 
+        h2{
+            color:white;
+             background-color: black;
+        }
+        p{
+            color: yellow;
+            background-color: brown;
+        }
+        a{
+            background-color: chartreuse;
+            color: red;
+        }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            margin: auto;
+        }
+        header{
+            background-color: white;
+            width:200px;
+            padding: 5px 0px 5px 0px;
+            border-radius: 25px;
+            margin: 5px auto;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            padding: 7px;
+            margin: auto;
+            width: 700px;
+        }
+        nav > ul > li >a{
+            color: rgb(62, 39, 39);
+            font-weight: 700;
+        }
+        ul{
+            background-color: white;
+            padding: 7px 0px 7px 0px;
+            border-radius: 15px;
+            box-shadow: 3px 2px 9px #0000002d;
+        }
+        ul > li{
+            display: inline;
+            padding-right: 30px;
+            margin-left: 10px;
+        }
+        main{
+            background-color: white;
+            width: 700px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 0px auto 87px auto;
+            box-shadow: 3px 2px 9px #0000002d;
+        }
+        .titulo{
+            text-align: center;
+            background-color: blanchedalmond;
+            padding: 10px;
+            border-radius: 15px;
+            color: rgb(39, 34, 34);
+            font-size: 2.2em;
+        }
+        .artigo{
+           background-color: blanchedalmond;
+            padding: 10px;
+            border-radius: 15px;
+            color: rgb(39, 34, 34);
+            width: 100px;
+        }
+        footer{
+            background-color: rgb(97, 61, 61);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            box-shadow: 3px 2px 9px #0000002d;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Meu Site</h1></header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 class="titulo">Bem-vindo ao meu site</h2>
+            <p>Este é um exemplo de uso de tags de agrupamento em HTML.</p>
+        </section>
+        <article >
+            <h3 class="artigo">Artigo 1</h3>
+            <p>Conteúdo do artigo 1.</p>
+        </article>
+        <article>
+            <h3 class="artigo">Artigo 2</h3>
+            <p>Conteúdo do artigo 2.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados. Criado por Lorenzo Ortiz Soares</p>
+    </footer>
+</body>
+</html>
