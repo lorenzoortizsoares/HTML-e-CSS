@@ -1,0 +1,17 @@
+body h1{
+    text-align: center;
+}
+main{
+    background-color: rgba(182, 182, 182, 0.196);
+    padding: 15px;
+    border: 1px solid rgb(164, 164, 248);
+    text-align: justify;
+    width: 590px;
+    margin: auto;
+}
+footer{
+    color: brown;
+}
+footer p {
+    text-align: center;
+}
