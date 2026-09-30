@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    min-height: 100dvh;
+}
+
+main{
+    background-image: url(assets/espaco.jpg);
+    min-height: 100dvh;
+    width: 100%;
+    background:  url(assets/espaco.jpg) top left/100% 100% ;
+    position: relative;
+}
+article{
+    position: absolute;
+    background: url(assets/astronauta.png) no-repeat;
+    height: 500px;
+    width: 508px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
