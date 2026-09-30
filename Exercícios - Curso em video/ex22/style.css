@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(wallpaper001.jpg);
+}
+
+.qdd{
+    background-color: lightblue;
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgb(47, 44, 44);
+    margin-right: 10px;  
+}
+
+#q1{
+    background-color: chartreuse;
+}
+
+#q2{
+    background-image: linear-gradient( to bottom, blue 10% , black);
+}
+
+#q3{
+    background-image: url(pattern001.png);
+}
