@@ -1,22 +1,22 @@
 @charset "UTF-8";
 
 body{
-    background-color: chartreuse;
-    background-image: url(assets/espaco.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 97.1dvh;
-    background-position: center;
-    
+       /*  background-color: chartreuse;
+        background-image: url(assets/espaco.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 97.1dvh;
+        background-position: center; */
+    background:center /cover no-repeat rgb(68, 0, 255) url(assets/espaco.jpg)  ;
     width: 99%;
 }
 main{
     
-    background-image: url(assets/astronauta.png);
+    /* background-image: url(assets/astronauta.png);
     background-position: center;
+    background-repeat: no-repeat; */
     height: 97dvh;
     width: 99%;
-    background-repeat: no-repeat;
-    
+    background: url(assets/astronauta.png) center no-repeat;
    
 }
