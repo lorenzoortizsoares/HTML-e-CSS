@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: chartreuse;
+    background-image: url(assets/espaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97.1dvh;
+    background-position: center;
+    
+    width: 99%;
+}
+main{
+    
+    background-image: url(assets/astronauta.png);
+    background-position: center;
+    height: 97dvh;
+    width: 99%;
+    background-repeat: no-repeat;
+    
+   
+}
